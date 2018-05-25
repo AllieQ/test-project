@@ -1,0 +1,61 @@
+
+body {
+	background: #847C8E;
+	color: #FFFFCC;
+	font-family: Georgia, "Trebuchet MS", serif;
+	margin-right: 25%;
+	margin-left:  25%;
+	margin-top: 2%;
+}
+
+h1 {
+	text-align: center;
+	color: #D1CED5;
+	border-bottom: 2px solid #A29BA9;
+	margin-bottom: 16px;
+}
+
+h4 {
+	margin: 5px;
+}
+
+h4, nav, footer {
+	text-align: center;
+}
+
+/*img.resize{
+   max-width:30%;
+   max-height:30%;
+} */
+
+nav {
+	font-variant: small-caps;
+	padding-bottom: 5px;
+}
+
+section {
+	background: #728597;
+	border: 5px solid #A29BA9;
+	padding: 10px;
+}
+
+
+/* ~*~*~ ANCHOR PSEUDO-CLASSES ~*~*~ */
+
+a:link{
+	color: #D1CED5;
+}
+
+a:visited{
+	color: #CC99AA;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #CBB9C3;
+	font-style: italic;
+}
+
+a:active {
+	color: #675C73;
+}
