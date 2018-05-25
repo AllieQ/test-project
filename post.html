@@ -1,0 +1,61 @@
+<!--This page will allow users to post their reviews and upload images-->
+
+<!DOCTYPE html> 
+<html lang=en>
+
+	<head>
+		<meta charset=utf-8>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<title>YA Book Lovers</title>
+	</head>
+
+	<body>
+
+		<!-- ~*~*~HEADER~*~*~ -->
+
+		<header>
+			<h1>YA Book Lovers</h1>
+				<nav>
+					<a href="index.html">Home</a> | <a href="post.html">Leave a Review!</a> | <a href="activity.php">Read all the Reviews</a> | <a href="http://www.goodreads.com">GoodReads</a>
+				</nav>
+		</header>
+
+		<!-- ~*~*~BODY~*~*~ -->
+			
+			<section>
+				<p>We want to hear what you thought about this month's book. Whether you loved it or hated it let us know by using the form below to leave your review of the book!<br />
+				Stuck on how to start your review? Here are questions to get you started. Who were your favourite characters? Was there a moment in the book that left you speechless?<br />
+				</p>
+			</section>
+
+			<section>
+			<!--HTML Form to gather data-->
+			<form action ="process.php" method = "post">
+				<fieldset>
+					<legend>Review Field</legend>
+					Reviewer Name: <br />
+					<input type="text" name = "name" id = "name"><br />
+					Title of Review:<br />
+					<input type="text" name = "title" id = "title"><br />
+					Enter your review below:
+					 <!--Textbox start-->	
+					 <textarea name="body" id = "body" rows="10" cols="100">
+					 </textarea>
+					  <!--Textbox end-->	
+  					<br />
+  					<input type="submit" name = "submit" id="submit">
+					<br />
+				</fieldset>
+				</form>
+			</section>
+
+			
+
+<!--~*~*~FOOTER~*~*~-->
+
+<footer>Copyright Allie Querengesser 2016 | Last Updated: 30 December 2016</footer>
+
+
+	</body>
+
+</html>
