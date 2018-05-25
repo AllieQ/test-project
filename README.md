@@ -1,2 +1,2 @@
 # test-project
-code4lib test
+*code4lib test*
